@@ -11,6 +11,7 @@
 		0978CED729DC390C00E1F89E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0978CED629DC390C00E1F89E /* ContentView.swift */; };
 		0978CED929DC390D00E1F89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0978CED829DC390D00E1F89E /* Assets.xcassets */; };
 		0978CEDC29DC390D00E1F89E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0978CEDB29DC390D00E1F89E /* Preview Assets.xcassets */; };
+		0978CEE629DC39F100E1F89E /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0978CEE529DC39F100E1F89E /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0978CED629DC390C00E1F89E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0978CED829DC390D00E1F89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0978CEDB29DC390D00E1F89E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0978CEE529DC39F100E1F89E /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				0978CED429DC390C00E1F89E /* city_appApp.swift */,
-				0978CED629DC390C00E1F89E /* ContentView.swift */,
+				0978CEE429DC399100E1F89E /* Views */,
+				0978CEE329DC398900E1F89E /* ViewModels */,
+				0978CEE229DC398300E1F89E /* Models */,
 				0978CED829DC390D00E1F89E /* Assets.xcassets */,
 				0978CEDA29DC390D00E1F89E /* Preview Content */,
 			);
@@ -65,6 +69,29 @@
 				0978CEDB29DC390D00E1F89E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0978CEE229DC398300E1F89E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0978CEE329DC398900E1F89E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0978CEE529DC39F100E1F89E /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0978CEE429DC399100E1F89E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0978CED629DC390C00E1F89E /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			files = (
 				0978CED729DC390C00E1F89E /* ContentView.swift in Sources */,
 				0978CED529DC390C00E1F89E /* city_appApp.swift in Sources */,
+				0978CEE629DC39F100E1F89E /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +298,7 @@
 				DEVELOPMENT_TEAM = R7LTD4L3TC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant Permission to find restatuant near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +328,7 @@
 				DEVELOPMENT_TEAM = R7LTD4L3TC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant Permission to find restatuant near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

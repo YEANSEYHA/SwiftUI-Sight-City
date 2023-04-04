@@ -12,6 +12,7 @@ struct city_appApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ContentModel())
         }
     }
 }
